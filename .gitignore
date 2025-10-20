@@ -24,6 +24,10 @@ playwright/.cache/
 /out/
 .next/
 next-env.d.ts
+.next/**/*.pack
+.next/**/*.pack.gz
+.next/cache/
+.next/cache/webpack/
 
 # production
 /build
