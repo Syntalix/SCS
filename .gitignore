@@ -28,6 +28,10 @@ next-env.d.ts
 .next/**/*.pack.gz
 .next/cache/
 .next/cache/webpack/
+.next/cache/webpack/client-development/
+.next/cache/webpack/server-development/
+**/*.pack.gz
+node_modules/@next/swc-*/
 
 # production
 /build
