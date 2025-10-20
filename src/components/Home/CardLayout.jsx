@@ -19,15 +19,19 @@ const Card = ({ title, subtitle, description }) => {
     >
       <div className="flex gap-0 justify-center py-0.5 pr-1.5 pl-5 text-base font-bold leading-6 text-zinc-800">
         <div className="flex-1 my-auto">{title}</div>
-        <img
-          loading="lazy"
-          className="shrink-0 w-11 aspect-square"
+        <Image
+          src="/placeholder.png"
+          alt="Card icon"
+          width={44}
+          height={44}
+          className="shrink-0 aspect-square"
         />
       </div>
       <div className="flex flex-col px-5 w-full rounded-xl">
         <Image
           loading="lazy"
           src={cardImage}
+          alt="Card illustration"
           className="w-full h-auto border border-solid aspect-[1.15] border-zinc-600"
         />
         <div className="flex gap-0 justify-center text-gray-500 rounded-3xl">

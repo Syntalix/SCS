@@ -1,29 +1,18 @@
 
-import React from "react";
-import Hero from '@/components/contact/Hero';
-import Form from '@/components/contact/ContactForm';
 export const metadata = {
-    title: "Contact Us",
-    description:
-        "Ready to explore transformative IT solutions with Achintya? Got questions or looking for seamless collaboration? Contact us today! Our dedicated team is here to assist you on your journey toward innovative and tailored technology solutions. Let's connect and grow together.",
-    metadataBase: new URL("https://achintyasolutions.com"),
-    openGraph: {
-        title: "Contact Us",
-        description:
-            "Ready to explore transformative IT solutions with Achintya? Got questions or looking for seamless collaboration? Contact us today! Our dedicated team is here to assist you on your journey toward innovative and tailored technology solutions. Let's connect and grow together.",
-    },
+    title: "Contact Us | Syntalix",
+    description: "Contact Syntalix for professional IT solutions and consulting services.",
 };
 
-const Contacts = () => {
+export default function ContactPage() {
     return (
-        <>
-            <main>
-                <Hero />
-                <Form />
-            </main>
-            
-        </>
+        <div className="min-h-screen py-12">
+            <div className="container mx-auto px-4">
+                <h1 className="text-4xl font-bold mb-8">Contact Us</h1>
+                <p className="text-lg mb-8">
+                    We&apos;re here to help. Send us a message and we&apos;ll get back to you as soon as possible.
+                </p>
+            </div>
+        </div>
     );
-};
-
-export default Contacts;
+}

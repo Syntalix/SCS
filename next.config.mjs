@@ -6,6 +6,10 @@ const nextConfig = {
                 hostname: "*"
             }
         ]
+    },
+    pageExtensions: ['js', 'jsx', 'ts', 'tsx'],
+    experimental: {
+        serverActions: true
     }
 };
 
