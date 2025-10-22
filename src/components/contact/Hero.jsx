@@ -46,8 +46,8 @@ const Hero = () => {
                         Get in Touch
                     </h1>
                     <p className="text-lg text-gray-600 mb-8">
-                        Have a question or want to discuss your project? We're here to help. 
-                        Fill out the form below and we'll get back to you as soon as possible.
+                        Have a question or want to discuss your project? We&apos;re here to help. 
+                        Fill out the form below and we&apos;ll get back to you as soon as possible.
                     </p>
                 </motion.div>
             </div>

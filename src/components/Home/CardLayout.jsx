@@ -19,8 +19,12 @@ const Card = ({ title, subtitle, description }) => {
     >
       <div className="flex gap-0 justify-center py-0.5 pr-1.5 pl-5 text-base font-bold leading-6 text-zinc-800">
         <div className="flex-1 my-auto">{title}</div>
-        <img
+        <Image
           loading="lazy"
+          src="/assets/Experience/6.png"
+          alt={`Icon for ${title}`}
+          width={44}
+          height={44}
           className="shrink-0 w-11 aspect-square"
         />
       </div>
@@ -28,6 +32,7 @@ const Card = ({ title, subtitle, description }) => {
         <Image
           loading="lazy"
           src={cardImage}
+          alt={`${title} card illustration`}
           className="w-full h-auto border border-solid aspect-[1.15] border-zinc-600"
         />
         <div className="flex gap-0 justify-center text-gray-500 rounded-3xl">

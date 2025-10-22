@@ -123,11 +123,11 @@ const TypographyShowcase = () => {
             <div className="space-y-4">
               <h3 className="syntalix-card-title">JetBrains Mono</h3>
               <div className="syntalix-font-mono text-xl">
-                const syntalix = "AI Solutions";
+                const syntalix = &quot;AI Solutions&quot;;
               </div>
               <div className="syntalix-code text-lg">
                 function innovate() &#123;<br />
-                &nbsp;&nbsp;return "Future Tech";<br />
+                &nbsp;&nbsp;return &quot;Future Tech&quot;;<br />
                 &#125;
               </div>
               <p className="syntalix-caption text-muted-foreground">
@@ -201,11 +201,11 @@ export async function createChatbot() {
             {/* Quote Example */}
             <div className="bg-gradient-to-r from-primary/10 to-secondary/10 border border-primary/20 rounded-lg p-6">
               <blockquote className="syntalix-text-lg syntalix-font-heading italic text-foreground">
-                "Syntalix delivered our AI chatbot ahead of schedule with exceptional quality.
-                Customer satisfaction increased by 40%!"
+                &quot;Syntalix delivered our AI chatbot ahead of schedule with exceptional quality.
+                Customer satisfaction increased by 40%!&quot;
               </blockquote>
               <footer className="syntalix-caption text-muted-foreground mt-4">
-                — Ahmed Hassan, Business Owner, Dubai
+                &mdash; Ahmed Hassan, Business Owner, Dubai
               </footer>
             </div>
           </div>
@@ -226,7 +226,7 @@ export async function createChatbot() {
               </ul>
             </div>
             <div className="space-y-4">
-              <h3 className="syntalix-card-title text-red-600">✗ Don't</h3>
+              <h3 className="syntalix-card-title text-red-600">✗ Don&apos;t</h3>
               <ul className="space-y-2 syntalix-body-text">
                 <li>• Mix too many font weights in one section</li>
                 <li>• Overuse gradient effects</li>
