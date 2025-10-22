@@ -111,7 +111,7 @@ const SyntalixFontDemo = () => {
             </h2>
             <div className="space-y-4">
               <code className="syntalix-mono text-lg text-foreground bg-muted px-3 py-2 rounded">
-                const syntalix = "innovation";
+                const syntalix = &quot;innovation&quot;;
               </code>
               <pre className="syntalix-mono text-sm text-foreground bg-muted p-4 rounded overflow-x-auto">
 {`function createAI() {

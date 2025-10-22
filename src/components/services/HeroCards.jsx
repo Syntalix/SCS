@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 
 const cardData = [
   {
@@ -30,7 +31,13 @@ const cardData = [
 
 const Card = ({ image, title, description }) => (
   <div className="bg-white bg-opacity-70  rounded-lg overflow-hidden p-4 flex flex-col">
-    <img src={image} alt={title} className="w-[55%] h-[50%] object-cover" />
+    <Image 
+      src={`/public/${image}`}
+      alt={title}
+      width={200}
+      height={150}
+      className="w-[55%] h-[50%] object-cover"
+    />
     <h3 className="mt-4 text-xl font-medium text-[#8447E9]">{title}</h3>
     <p className="mt-5 text-gray-600">{description}</p>
     <a className="mt-4  text-gray-900 ">Learn More</a>
